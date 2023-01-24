@@ -131,3 +131,21 @@ hr {
     width: 35%;
     margin: auto;
 }
+
+@media screen and (max-width: 600px)   {
+    .top-container{
+         margin-right: 0;
+    }
+    #mountain-img{
+        height: 80%;
+        width: 80%;
+    }
+    #bottom-cloud{
+        visibility:hidden;
+    }
+    
+    #top-cloud{
+        visibility:hidden;
+    }
+
+}
